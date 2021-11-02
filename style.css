@@ -1,0 +1,19 @@
+@keyframes setcolors {
+	0%,
+	100% {color: red;}
+	14% {color: orange;}
+	28% {color: yellow;}
+	42% {color: chartreuse;}
+	56% {color: deepskyblue;}
+	70% {color: blue;}
+	84% {color: darkviolet;}
+}
+
+.go {
+	animation: setcolors 1s infinite;
+	font-size: 100px;
+}
+
+body {
+	background-color: black;
+}
